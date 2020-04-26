@@ -7,3 +7,11 @@ In this project, I created a database for a virtual library. The books from the 
 + For each book, we also need to store information about when it was checked out by which User.
 + For each User we need to store certain information: User id, name, phone, address, university affiliation (if any)
 + For each book and User, we need to store the comments made about the book by the User
+
+This mongodb connection can also fulfill such queries:
++ Which books have been checked out since such and such date
++ Which users have checked out such and such book
++ How many books does the library have on such and such topic
++ Which users from Columbia University have checked out books on Machine Learning between this date and that date.
++ What comments have been made by any User about such and such book between such and such dates, ordered from the most recent to the least recent.
++ Show for a given User, what comments they have made about such and such book.
