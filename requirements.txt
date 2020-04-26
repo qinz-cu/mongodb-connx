@@ -1,0 +1,2 @@
+pymongo==3.10.1
+Python 3.7.3
